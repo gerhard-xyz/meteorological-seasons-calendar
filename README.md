@@ -1,2 +1,0 @@
-# Meteorological Seasons Calendar
-
