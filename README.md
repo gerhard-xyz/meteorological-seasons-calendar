@@ -9,11 +9,11 @@ Subscribing keeps your calendar in sync automatically. Use these URLs:
 - **Northern Hemisphere:** `https://raw.githubusercontent.com/gerhard-xyz/meteorological-seasons-calendar/main/seasons-northern-hemisphere.ics`
 - **Southern Hemisphere:** `https://raw.githubusercontent.com/gerhard-xyz/meteorological-seasons-calendar/main/seasons-southern-hemisphere.ics`
 
-**Apple Calendar** — File > New Calendar Subscription, paste the URL, click Subscribe.
+**Apple Calendar:** File > New Calendar Subscription, paste the URL, click Subscribe.
 
-**Google Calendar** — Settings > Add calendar > From URL, paste the URL, click Add Calendar. Note: Google typically refreshes subscribed calendars only once every 24 hours.
+**Google Calendar:** Settings > Add calendar > From URL, paste the URL, click Add Calendar. Note: Google typically refreshes subscribed calendars only once every 24 hours.
 
-**Outlook** — Add calendar > Subscribe from web, paste the URL, click Import.
+**Outlook:** Add calendar > Subscribe from web, paste the URL, click Import.
 
 ## One-time import
 
@@ -23,9 +23,9 @@ To import a static copy instead of subscribing, download the relevant .ics file 
 
 Each calendar contains recurring yearly events for:
 
-- **Season spans** — multi-month all-day events covering the full duration of each season
-- **Season begins** — single-day marker on the first day of each season
-- **Season ends** — single-day marker on the last day of each season
+- **Season spans:** multi-month all-day events covering the full duration of each season
+- **Season begins:** single-day marker on the first day of each season
+- **Season ends:** single-day marker on the last day of each season
 
 All events are marked transparent (free/busy status: free) so they don't block time on your calendar.
 
