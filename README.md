@@ -1,13 +1,16 @@
 # Meteorological Seasons Calendar
 
-iCalendar (.ics) files for tracking meteorological seasons, available for both hemispheres.
+iCalendar (.ics) files for tracking meteorological season dates, available for both hemispheres.
 
 ## Subscribe
 
-Subscribing keeps your calendar in sync automatically. Use these URLs:
+Subscribing keeps your calendar in sync automatically. Use the URL for your hemisphere:
 
-- **Northern Hemisphere:** `https://raw.githubusercontent.com/gerhard-xyz/meteorological-seasons-calendar/main/seasons-northern-hemisphere.ics`
-- **Southern Hemisphere:** `https://raw.githubusercontent.com/gerhard-xyz/meteorological-seasons-calendar/main/seasons-southern-hemisphere.ics`
+**Northern Hemisphere:**
+`https://raw.githubusercontent.com/gerhard-xyz/meteorological-seasons-calendar/main/seasons-northern-hemisphere.ics`
+
+**Southern Hemisphere:**
+`https://raw.githubusercontent.com/gerhard-xyz/meteorological-seasons-calendar/main/seasons-southern-hemisphere.ics`
 
 **Apple Calendar:** File > New Calendar Subscription, paste the URL, click Subscribe.
 
@@ -15,29 +18,32 @@ Subscribing keeps your calendar in sync automatically. Use these URLs:
 
 **Outlook:** Add calendar > Subscribe from web, paste the URL, click Import.
 
+Tip: swap `https://` for `webcal://` to let some apps add it in one click.
+
 ## One-time import
 
-To import a static copy instead of subscribing, download the relevant .ics file and open it in your calendar app, or use File > Import.
+To import a static copy instead of subscribing, download the relevant file and open it in your calendar app, or use File > Import.
+
+- Northern Hemisphere: [`seasons-northern-hemisphere.ics`](seasons-northern-hemisphere.ics)
+- Southern Hemisphere: [`seasons-southern-hemisphere.ics`](seasons-southern-hemisphere.ics)
 
 ## What's included
 
-Each calendar contains recurring yearly events for:
+All events are all-day and recur every year. They are marked transparent so they don't block time on your calendar.
 
-- **Season spans:** multi-month all-day events covering the full duration of each season
-- **Season begins:** single-day marker on the first day of each season
-- **Season ends:** single-day marker on the last day of each season
+| Event | Dates | Notes |
+| ----- | ----- | ----- |
+| Spring | 1 Mar – 31 May (NH) / 1 Sep – 30 Nov (SH) | Full season span |
+| Summer | 1 Jun – 31 Aug (NH) / 1 Dec – 28/29 Feb (SH) | Full season span |
+| Autumn | 1 Sep – 30 Nov (NH) / 1 Mar – 31 May (SH) | Full season span |
+| Winter | 1 Dec – 28/29 Feb (NH) / 1 Jun – 31 Aug (SH) | Full season span |
+| Season begins | First day of each season | Single-day marker |
+| Season ends | Last day of each season | Single-day marker |
 
-All events are marked transparent (free/busy status: free) so they don't block time on your calendar.
+## Notes
 
-## Meteorological vs. astronomical seasons
+Meteorological seasons are based on the annual temperature cycle and always start on the 1st of the month, making them consistent and predictable.
 
-Meteorological seasons are based on the annual temperature cycle and align with calendar months, making them consistent and easy to track:
-
-| Season | Northern Hemisphere         | Southern Hemisphere         |
-| ------ | --------------------------- | --------------------------- |
-| Spring | March 1 – May 31            | September 1 – November 30   |
-| Summer | June 1 – August 31          | December 1 – February 28/29 |
-| Autumn | September 1 – November 30   | March 1 – May 31            |
-| Winter | December 1 – February 28/29 | June 1 – August 31          |
-
-Astronomical seasons (solstices/equinoxes) vary by a day or two each year. Meteorological seasons always start on the 1st of the month.
+- **Meteorological vs. astronomical:** Astronomical seasons (solstices/equinoxes) shift by a day or two each year. Meteorological seasons do not.
+- **Hemispheres are opposite:** When it is summer in the Northern Hemisphere, it is winter in the Southern Hemisphere, and vice versa.
+- **Leap years:** The Summer/Winter season that includes February ends on 28 Feb in common years and 29 Feb in leap years.
